@@ -1,9 +1,11 @@
 Iniciar o projeto Django
 
-python -m venv venv
-. venv/bin/activate
-pip install django
-django-admin startproject project .
+Iniciando projeto Django
+python -m venv venv (cria a pasta venv)
+.\venv\Scripts\activate (ativa ambiente virtual)
+pip install django (só precisa disso no começo)
+django-admin startproject project . (método para criar seu projeto inicial)
+
 Configurar o git
 
 git config --global user.name 'Seu nome'
