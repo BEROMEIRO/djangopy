@@ -5,6 +5,7 @@ python -m venv venv (cria a pasta venv)
 .\venv\Scripts\activate (ativa ambiente virtual)
 pip install django (só precisa disso no começo)
 django-admin startproject project . (método para criar seu projeto inicial)
+python manage.py startapp contact
 
 Configurar o git
 
