@@ -47,7 +47,7 @@ class ContactForm(forms.ModelForm):
             self.add_error(
                 'first_name',
                 ValidationError(
-                    'Veio do add_error',
+                    'Nome inválido',
                     code='invalid'
                 )
             )
